@@ -38,6 +38,7 @@ body {
   gap: 2rem;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .column {
@@ -51,7 +52,7 @@ body {
 
 .content-section {
   flex: 1 1 0;
-  min-width: 0;
+  min-width: 450px;
   color: white;
 }
 
@@ -106,7 +107,8 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: white;
-  min-width: 0;
+  max-width: 250px;
+  min-width: 200px;
 }
 
 .card-image img {
